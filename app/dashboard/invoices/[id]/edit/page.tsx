@@ -22,6 +22,7 @@ export default async function Page({ params }: { params: { id: string } }) {
           },
         ]}
       />
+      {/* @ts-ignore */}
       <Form invoice={invoice} customers={customers} />
     </main>
   );
